@@ -1,0 +1,23 @@
+.titulo{
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de la fuente */
+    color: #000000; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    /* Otros estilos que desees aplicar */
+}
+
+.body{
+    background-color:#f0323e
+}
+.imagen{
+    width: 50%;
+    height:auto;
+    display: block;
+}
+
+.div-img{
+    align-content: left;
+    width: 50%;
+    height:auto;
+    display: block;
+}
