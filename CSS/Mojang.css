@@ -1,11 +1,9 @@
 .titulo{
-    font-size: 24px; /* Tamaño de fuente */
-    font-weight: bold; /* Peso de la fuente */
-    color: #000000; /* Color del texto */
-    text-align: center; /* Alineación del texto */
-    /* Otros estilos que desees aplicar */
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #000000; 
+    text-align: center; 
 }
-
 
 .body{
     background-color:#f0323e
@@ -51,6 +49,7 @@
   }
 
   .enlace-imagen {
+    color:black;
     display: inline-block; /* Cambia el comportamiento de la etiqueta 'a' a ser similar a un bloque */
-    width: 100%; /* Asigna el ancho completo del contenedor a la imagen */
+    width: 100%; 
   }
