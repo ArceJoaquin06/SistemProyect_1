@@ -82,3 +82,24 @@
     vertical-align: middle;
     margin-right: 5px;
 }
+
+.contenedor-youtubers {
+    display: flex; /* Utiliza flexbox para distribuir los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+    background-color: #176914; /* Fondo blanco */
+    border-radius: 50px; /* Bordes redondeados */
+  }
+
+.foto-dni{
+    height: 100px;
+    width: 100px;
+}
+
+.contenedor-minecraft{
+    background-color: #218a1d;/* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 1800px; /* Ancho máximo */
+    margin: 0 auto; /* Centra el recuadro */
+}
