@@ -34,17 +34,19 @@
 }
 
 .contenedor {
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    width: 600px; /* Ajusta el ancho según sea necesario */
-    height: 500px
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    display: flex; /* Utiliza flexbox para distribuir los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+    justify-content: space-between; /* Distribuye los elementos uniformemente a lo largo del contenedor */
   }
   
   .contenedor img {
-    width: calc(50% - 10px);
+    width: calc(40% - 70px);
     height: 200px;
-    margin: 5px; /* Espacio de 5px entre cada imagen */
+    margin-bottom: 10px; /* Espacio de 10px entre cada fila de imágenes */
   }
 
   .enlace-imagen {
@@ -52,3 +54,13 @@
     display: inline-block; /* Cambia el comportamiento de la etiqueta 'a' a ser similar a un bloque */
     width: 100%; 
   }
+
+  .contenedor-mojang {
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 1300px; /* Ancho máximo */
+    margin: 0 auto; /* Centra el recuadro */
+  }
+  
