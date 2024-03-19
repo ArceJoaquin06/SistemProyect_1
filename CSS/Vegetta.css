@@ -13,7 +13,38 @@
     color: #efb810;
 }
 
-.text1-ve{
+.my-a {
+    margin-left: 0.5em; 
+    display: inline; 
+}
+
+.text1-ve {
     padding-left: 150px;
     padding-right: 150px;
+    margin-bottom: 0.5px;
+    display: inline; 
 }
+
+.text2-ve {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 0.5px;
+    display: inline; 
+}
+
+.video-container {
+    max-width: 560px;
+    margin: 0 auto; 
+  }
+  
+  .video-container img {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+    border: 8px solid #ccc; 
+  }
+  
+  .video-container a {
+    display: block; 
+    text-decoration: none; 
+  }

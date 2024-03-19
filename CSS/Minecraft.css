@@ -23,8 +23,14 @@
 
 .text1-mi{
     text-align: center;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.text2-mi{
+    padding-left: 400px;
+    padding-right: 400px;
+    text-align: center;
 }
 
 .titulo2-mi{
