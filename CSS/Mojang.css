@@ -1,68 +1,104 @@
-.titulo{
-    font-size: 24px; 
-    font-weight: bold; 
-    color: #000000; 
-    text-align: center; 
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
 }
 
-.body{
-    background-color:#f0323e
+.body {
+  background-color: #f0323e;
 }
 
-.imagen{
-    width: 50%;
-    height:auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.imagen {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.text1-mo{
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 50px;
+.texto-creacion  {
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  max-width: 1300px; /* Ancho máximo */
+  margin: 0 auto; /* Centra el recuadro */
 }
 
-.titulo1-mo{
-    text-align: center;
-    font-family: "minecraft_font.ttf", sans-serif;
+.texto-creacion p {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
 }
 
-.titulo2-mo{
-    text-align: center;
-    padding-top: 50px;
+.texto-creacion h2 {
+  text-align: center;
+  font-family: "minecraft_font.ttf", sans-serif;
+}
+
+.texto-creacion img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.titulo2-mo {
+  text-align: center;
+  padding-top: 50px;
 }
 
 .contenedor {
-    background-color: #fff; /* Fondo blanco */
-    border-radius: 10px; /* Bordes redondeados */
-    padding: 20px; /* Espacio interno */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    display: flex; /* Utiliza flexbox para distribuir los elementos */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
-    justify-content: space-between; /* Distribuye los elementos uniformemente a lo largo del contenedor */
-  }
-  
-  .contenedor img {
-    width: calc(50% - 10px); /* Ancho del 50% del contenedor menos el margen */
-    max-width: calc(33.333% - 50px); /* Ancho máximo del 33.333% del contenedor menos el margen */
-    height: auto; /* Altura automática para mantener la relación de aspecto */
-    border-radius: 8px; /* Bordes redondeados */
-    margin-bottom: 20px; /* Espacio de 20px entre cada fila de imágenes */
-  }
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  display: flex; /* Utiliza flexbox para distribuir los elementos */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+  justify-content: space-between; /* Distribuye los elementos uniformemente a lo largo del contenedor */
+}
 
-  .enlace-imagen {
-    color:black;
-    display: inline-block; /* Cambia el comportamiento de la etiqueta 'a' a ser similar a un bloque */
-    width: 100%; 
-  }
+.contenedor img {
+  width: calc(50% - 10px); /* Ancho del 50% del contenedor menos el margen */
+  max-width: calc(
+    33.333% - 50px
+  ); /* Ancho máximo del 33.333% del contenedor menos el margen */
+  height: auto; /* Altura automática para mantener la relación de aspecto */
+  border-radius: 8px; /* Bordes redondeados */
+  margin-bottom: 20px; /* Espacio de 20px entre cada fila de imágenes */
+}
 
-  .contenedor-mojang {
-    background-color: #fff; /* Fondo blanco */
-    border-radius: 10px; /* Bordes redondeados */
-    padding: 20px; /* Espacio interno */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    max-width: 1300px; /* Ancho máximo */
-    margin: 0 auto; /* Centra el recuadro */
-  }
-  
+.enlace-imagen {
+  color: black;
+  display: inline-block; /* Cambia el comportamiento de la etiqueta 'a' a ser similar a un bloque */
+  width: 100%;
+}
+
+.contenedor-mojang {
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  max-width: 1300px; /* Ancho máximo */
+  margin: 0 auto; /* Centra el recuadro */
+}
+
+.titulo-bienvenida {
+  display: flex; /* Establece un contenedor flexible */
+  align-items: center; /* Alinea los elementos verticalmente */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.titulo-bienvenida img {
+  width: 100px; /* Modifica el tamaño de las imágenes */
+  margin-right: 10px; /* Añade un espacio entre las imágenes y el título */
+}
+
+.titulo-bienvenida h1 {
+  color: #a42929; /* Cambia el color del título a rojo */
+  font-size: 44px; /* Modifica el tamaño del título */
+}
