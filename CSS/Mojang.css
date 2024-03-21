@@ -46,10 +46,24 @@
   border-radius: 10px;
 }
 
-.titulo2-mo {
+.titulo-juegos h2 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 10px;
 }
+
+.titulo-juegos img {
+  width: 40px; /* Modifica el tamaño de las imágenes */
+  margin-right: 20px; /* Añade un espacio entre las imágenes y el título */
+  margin-left: 20px;
+}
+
+.titulo-juegos {
+  display: flex; /* Establece un contenedor flexible */
+  align-items: center; /* Alinea los elementos verticalmente */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
 
 .contenedor {
   background-color: #fff; /* Fondo blanco */

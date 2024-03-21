@@ -7,7 +7,8 @@
 }
 
 .body2{
-    background-color:#74b72e
+    background-color:#74b72e;
+    font-family:'minecraft';
 }
 
 .youtuber1 {
@@ -38,6 +39,11 @@
 .titulo2-mi{
     font-size: 56px;
     text-align: center;
+}
+
+@font-face {
+    font-family:'minecraft';
+    src: url(minecraft.ttf);
 }
 
 .titulo1-mi{

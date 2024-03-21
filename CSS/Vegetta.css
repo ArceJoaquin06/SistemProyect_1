@@ -8,6 +8,34 @@
     color: #efb810;
 }
 
+span:before{
+  content: 'Vegetta777';
+  animation: animate infinite 8s;
+}
+
+@keyframes animate{
+  0%
+  {
+    content: 'Vegetta777';
+  }
+  25%
+  {
+    content: 'Triple7';
+  }
+  50%
+  {
+    content: 'VegettaGaymer';
+  }
+  75%
+  {
+    content: 'Samuel De Luque';
+  }
+  100%
+  {
+    content: 'Vegetta777';
+  }
+}
+
 .titulo2-ve{
     text-align: center;
     color: #efb810;
@@ -65,4 +93,14 @@
     border-radius: 20px;
   }
 
-  
+  .principal {
+    background-color: #9030bb;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-width: 10px; /* Define el ancho del borde */
+    border-style: solid; /* Establece el estilo del borde como sólido */
+    box-sizing: border-box;
+    border-image: url('https://i.pinimg.com/236x/e2/d7/50/e2d750e0c0bdc8ce3af062ad320238d1.jpg') 10 round;
+    border-image-width: 20px;
+}
