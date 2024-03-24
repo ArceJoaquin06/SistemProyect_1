@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Skranji:wght@400;700&display=swap');
 
-.titulo-mo{
+.titulo-mo {
   font-family: "Skranji", system-ui;
   font-weight: 700;
   font-size: 24px;
@@ -10,7 +10,8 @@
   color: #000000;
   text-align: center;
 }
-.titulo1-mo{
+
+.titulo1-mo {
   font-family: "Skranji", system-ui;
   font-weight: 700;
   font-size: 24px;
@@ -31,15 +32,21 @@
   margin-right: auto;
 }
 
-.texto-creacion  {
+.texto-creacion {
   font-family: "Fredoka", sans-serif;
   font-optical-sizing: auto;
-  background-color: #ffffff; /* Fondo blanco */
-  border-radius: 10px; /* Bordes redondeados */
-  padding: 20px; /* Espacio interno */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  max-width: 1300px; /* Ancho máximo */
-  margin: 0 auto; /* Centra el recuadro */
+  background-color: #ffffff;
+  /* Fondo blanco */
+  border-radius: 10px;
+  /* Bordes redondeados */
+  padding: 20px;
+  /* Espacio interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
+  max-width: 1300px;
+  /* Ancho máximo */
+  margin: 0 auto;
+  /* Centra el recuadro */
 }
 
 .texto-creacion p {
@@ -71,67 +78,348 @@
 }
 
 .titulo-juegos img {
-  width: 40px; /* Modifica el tamaño de las imágenes */
-  margin-right: 20px; /* Añade un espacio entre las imágenes y el título */
+  width: 40px;
+  /* Modifica el tamaño de las imágenes */
+  margin-right: 20px;
+  /* Añade un espacio entre las imágenes y el título */
   margin-left: 20px;
 }
 
 .titulo-juegos {
-  display: flex; /* Establece un contenedor flexible */
-  align-items: center; /* Alinea los elementos verticalmente */
-  justify-content: center; /* Centra horizontalmente el contenido */
-  text-align: center; /* Centra el texto dentro del contenedor */
+  display: flex;
+  /* Establece un contenedor flexible */
+  align-items: center;
+  /* Alinea los elementos verticalmente */
+  justify-content: center;
+  /* Centra horizontalmente el contenido */
+  text-align: center;
+  /* Centra el texto dentro del contenedor */
 }
 
 
 .contenedor {
-  background-color: #fff; /* Fondo blanco */
-  border-radius: 10px; /* Bordes redondeados */
-  padding: 20px; /* Espacio interno */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  display: flex; /* Utiliza flexbox para distribuir los elementos */
-  flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
-  justify-content: space-between; /* Distribuye los elementos uniformemente a lo largo del contenedor */
+  background-color: #ffffff;
+  /* Fondo rosa */
+  border-radius: 10px;
+  /* Bordes redondeados */
+  padding: 20px;
+  /* Espacio interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
+  max-width: 100%;
+  /* Hace que el contenedor ocupe todo el ancho disponible */
 }
 
-.contenedor img {
-  width: calc(50% - 10px); /* Ancho del 50% del contenedor menos el margen */
-  max-width: calc(
-    33.333% - 50px
-  ); /* Ancho máximo del 33.333% del contenedor menos el margen */
-  height: auto; /* Altura automática para mantener la relación de aspecto */
-  border-radius: 8px; /* Bordes redondeados */
-  margin-bottom: 20px; /* Espacio de 20px entre cada fila de imágenes */
+
+/*inicia contenedor 1*/
+
+
+.cont-1 {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  max-width: 95%;
+  /* Ancho máximo de 1000px */
+  background-color: #7e6546;
+  /* Ajustar la imagen de fondo al tamaño del contenedor */
+  background-blend-mode: multiply;
+  border: 2px solid #000000;
+  gap: 50px;
 }
+
+.text-c1 {
+  background-color: #ffffff; /* Fondo blanco */
+  border: 2px solid #000000; /* Borde negro */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interno */
+  display: flex;
+  flex-direction: column;
+  /* Apila los elementos verticalmente */
+  justify-content: center;
+  /* Centra los elementos verticalmente */
+  align-items: center;
+  /* Centra los elementos horizontalmente */
+}
+
+.text-c1 h1 {
+  margin-bottom: 20px;
+  /* Aumenta el espacio entre el h1 y la imagen */
+  text-align: center;
+  /* Centra el texto horizontalmente */
+}
+
+.text-c1 h6 {
+  text-align: center;
+  /* Centra el texto horizontalmente */
+}
+
+
+.cont-1 img {
+  border-radius: 20px;
+  width: 450px;
+  /* Ancho de la imagen */
+  height: auto;
+  /* Altura automática para mantener la proporción */
+  margin-right: 20px;
+  /* Espacio a la derecha de la imagen */
+}
+
+.href-c1 {
+  background-color: #9f8c73;
+  color: rgb(0, 0, 0);
+  padding: 15px 25px;
+  border-radius: 20px;
+}
+
+/*contenedor 1 terminado*/
+
+/*inicia contenedor 2*/
+
+.cont-2 {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  max-width: 95%;
+  /* Ancho máximo de 1000px */
+  background-color: #7cabaf;
+  /* Ajustar la imagen de fondo al tamaño del contenedor */
+  background-blend-mode: multiply;
+  border: 2px solid #000000;
+  gap: 50px;
+}
+
+.text-c2 {
+  background-color: #ffffff; /* Fondo blanco */
+  border: 2px solid #000000; /* Borde negro */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interno */
+  display: flex;
+  flex-direction: column;
+  /* Apila los elementos verticalmente */
+  justify-content: center;
+  /* Centra los elementos verticalmente */
+  align-items: center;
+  /* Centra los elementos horizontalmente */
+}
+
+.text-c2 h1 {
+  margin-bottom: 20px;
+  /* Aumenta el espacio entre el h1 y la imagen */
+  text-align: center;
+  /* Centra el texto horizontalmente */
+}
+
+.text-c2 h6 {
+  text-align: center;
+  /* Centra el texto horizontalmente */
+}
+
+
+.cont-2 img {
+  border-radius: 20px;
+  width: 450px;
+  /* Ancho de la imagen */
+  height: auto;
+  /* Altura automática para mantener la proporción */
+  margin-right: 20px;
+  /* Espacio a la derecha de la imagen */
+}
+
+.href-c2 {
+  background-color: #9fb6ba;
+  color: rgb(0, 0, 0);
+  padding: 15px 25px;
+  border-radius: 20px;
+}
+
+/*contenedor 2 terminado*/
+
+
+/*inicia contenedor 3*/
+
+.cont-3 {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  max-width: 95%;
+  /* Ancho máximo de 1000px */
+  background-color: #c0a63f;
+  /* Ajustar la imagen de fondo al tamaño del contenedor */
+  background-blend-mode: multiply;
+  border: 2px solid #000000;
+  gap: 50px;
+}
+
+.text-c3 {
+  background-color: #ffffff; /* Fondo blanco */
+  border: 2px solid #000000; /* Borde negro */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interno */
+  display: flex;
+  flex-direction: column;
+  /* Apila los elementos verticalmente */
+  justify-content: center;
+  /* Centra los elementos verticalmente */
+  align-items: center;
+  /* Centra los elementos horizontalmente */
+}
+
+.text-c3 h1 {
+  margin-bottom: 20px;
+  /* Aumenta el espacio entre el h1 y la imagen */
+  text-align: center;
+  /* Centra el texto horizontalmente */
+}
+
+.text-c3 h6 {
+  text-align: center;
+  /* Centra el texto horizontalmente */
+}
+
+
+.cont-3 img {
+  border-radius: 20px;
+  width: 800px;
+  /* Ancho de la imagen */
+  height: auto;
+  /* Altura automática para mantener la proporción */
+  margin-right: 20px;
+  /* Espacio a la derecha de la imagen */
+}
+
+.href-c3 {
+  background-color: #dad789;
+  color: rgb(0, 0, 0);
+  padding: 15px 25px;
+  border-radius: 20px;
+}
+
+/*contenedor 3 terminado*/
+
+
+
+/*inicia contenedor 4*/
+
+.cont-4 {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  max-width: 95%;
+  /* Ancho máximo de 1000px */
+  background-color: #7dd34f;
+  /* Ajustar la imagen de fondo al tamaño del contenedor */
+  background-blend-mode: multiply;
+  border: 2px solid #000000;
+  gap: 50px;
+}
+
+.text-c4 {
+  background-color: #ffffff; /* Fondo blanco */
+  border: 2px solid #000000; /* Borde negro */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interno */
+  display: flex;
+  flex-direction: column;
+  /* Apila los elementos verticalmente */
+  justify-content: center;
+  /* Centra los elementos verticalmente */
+  align-items: center;
+  /* Centra los elementos horizontalmente */
+}
+
+.text-c4 h1 {
+  margin-bottom: 20px;
+  /* Aumenta el espacio entre el h1 y la imagen */
+  text-align: center;
+  /* Centra el texto horizontalmente */
+}
+
+.text-c4 h6 {
+  text-align: center;
+  /* Centra el texto horizontalmente */
+}
+
+.cont-4 img {
+  border-radius: 20px;
+  width: 300px;
+  /* Ancho de la imagen */
+  height: auto;
+  /* Altura automática para mantener la proporción */
+  margin-right: 20px;
+  /* Espacio a la derecha de la imagen */
+}
+
+.href-c4 {
+  background-color: #8ab175;
+  color: rgb(0, 0, 0);
+  padding: 15px 25px;
+  border-radius: 20px;
+}
+
+/*contenedor 4 terminado*/
+
+
+
 
 .enlace-imagen {
   color: black;
-  display: inline-block; /* Cambia el comportamiento de la etiqueta 'a' a ser similar a un bloque */
+  display: inline-block;
+  /* Cambia el comportamiento de la etiqueta 'a' a ser similar a un bloque */
   width: 100%;
 }
 
 .contenedor-mojang {
-  background-color: #fff; /* Fondo blanco */
-  border-radius: 10px; /* Bordes redondeados */
-  padding: 20px; /* Espacio interno */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  max-width: 1300px; /* Ancho máximo */
-  margin: 0 auto; /* Centra el recuadro */
+  background-color: #fff;
+  /* Fondo blanco */
+  border-radius: 10px;
+  /* Bordes redondeados */
+  padding: 20px;
+  /* Espacio interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
+  max-width: 1300px;
+  /* Ancho máximo */
+  margin: 0 auto;
+  /* Centra el recuadro */
 }
 
 .titulo-bienvenida {
-  display: flex; /* Establece un contenedor flexible */
-  align-items: center; /* Alinea los elementos verticalmente */
-  justify-content: center; /* Centra horizontalmente el contenido */
-  text-align: center; /* Centra el texto dentro del contenedor */
+  display: flex;
+  /* Establece un contenedor flexible */
+  align-items: center;
+  /* Alinea los elementos verticalmente */
+  justify-content: center;
+  /* Centra horizontalmente el contenido */
+  text-align: center;
+  /* Centra el texto dentro del contenedor */
 }
 
 .titulo-bienvenida img {
-  width: 100px; /* Modifica el tamaño de las imágenes */
-  margin-right: 10px; /* Añade un espacio entre las imágenes y el título */
+  width: 100px;
+  /* Modifica el tamaño de las imágenes */
+  margin-right: 10px;
+  /* Añade un espacio entre las imágenes y el título */
 }
 
 .titulo-bienvenida h1 {
-  color: #a42929; /* Cambia el color del título a rojo */
-  font-size: 44px; /* Modifica el tamaño del título */
+  color: #a42929;
+  /* Cambia el color del título a rojo */
+  font-size: 44px;
+  /* Modifica el tamaño del título */
 }
