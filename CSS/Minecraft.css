@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Skranji:wght@400;700&display=swap');
+
 .imagen1{
     width: 50%;
     height:auto;
@@ -17,12 +21,16 @@
 }
 
 .subtitulo1-mi{
+    font-family: "Skranji", system-ui;
+    font-weight: 700;
     text-align: center; /* Alineación del texto */
     font-size: 40px;
     color: #804000;
 }
 
 .text1-mi{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
     font-size: 30px;
     text-align: center;
     padding-left: 300px;
@@ -30,6 +38,8 @@
 }
 
 .text2-mi{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
     font-size: 30px;
     padding-left: 400px;
     padding-right: 400px;
@@ -37,7 +47,9 @@
 }
 
 .titulo2-mi{
-    font-size: 56px;
+    font-family: "Skranji", system-ui;
+    font-weight: 700;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -47,11 +59,15 @@
 }
 
 .titulo1-mi{
-    font-size: 40px;
+    font-family: "Skranji", system-ui;
+    font-weight: 700;
+    font-size: 70px;
     text-align: center;
 }
 
 .card {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
     display: flex;
     border: 1px solid #ccc;
     border-radius: 8px;

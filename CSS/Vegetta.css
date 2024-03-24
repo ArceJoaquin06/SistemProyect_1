@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Skranji:wght@400;700&display=swap');
+
 .body3{
     background-color: #9030bb;
     color: white;
 }
 
 .titulo1-ve{
+    font-family: "Skranji", system-ui;
+    font-weight: 700;
     text-align: center;
     color: #efb810;
 }
@@ -37,6 +43,8 @@ span:before{
 }
 
 .titulo2-ve{
+    font-family: "Skranji", system-ui;
+    font-weight: 700;
     text-align: center;
     color: #efb810;
 }
@@ -47,6 +55,8 @@ span:before{
 }
 
 .text1-ve {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
     padding-left: 150px;
     padding-right: 150px;
     margin-bottom: 0.5px;
@@ -54,6 +64,8 @@ span:before{
 }
 
 .text2-ve {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
     padding-left: 150px;
     padding-right: 150px;
     margin-bottom: 0.5px;
